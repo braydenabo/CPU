@@ -1,0 +1,8 @@
+ADD X0, X1, 4 
+STR X0, [X0, 2]
+LDR X1, [X0, 2]
+STR X0, [X0, X1]
+SUB X3, X0, 3
+ADD X2, X1, X3
+
+
